@@ -3,17 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/65ad1d91ec.js"
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
-    ></script>
+    />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span class="tatus-bar__clock">14:00</span>
+        <span class="status-bar__clock">14:00</span>
       </div>
       <div class="status-bar__column">
         <i class="far fa-clock"></i>
@@ -37,56 +40,60 @@
       </div>
     </header>
     <main class="friends">
-      <header class="freinds__header">
-        <div class="friends__friend friend freind--lg">
-            <div class="friend__column">
-
-
-            </div>
-          <img src="images/kitty.png" class="g-avatar freind__avatar" />
-          <div class="friend__content">
-            <span class="freind__name">
-              SY Park
-            </span>
-            <span class="freind__status">
-              Cloning now
-            </span>
-          </div>
-        </div>
-      </header>
-      <div class="friends__plust-friends">
-        <h5 class="friends__title">Plus friend</h5>
+      <header class="friends__header">
         <div class="friends__friend friend">
-            <div class="friend__column"></div>
-          <img src="images/kitty.png" class="g-avatar freind__avatar" />
-          <div class="friend__content">
-            <span class="freind__name">
-               Plus Friend
-                </span>
-            </div>
-            </div>
-        </div>
-      <ul class="freinds__list">
-          <h5 class="friends__title">Friends 14</h5>
-          <li class="friends__friend friend freind--lg">
-              <div class="friend__column"></div>
-            <img src="images/kitty.png" class="g-avatar freind__avatar" />
+          <div class="friend__column">
+            <img src="images/kitty.png" class="g-avatar friend__avatar" />
             <div class="friend__content">
-              <span class="freind__name">
+              <span class="friend__name">
                 SY Park
               </span>
-              <span class="freind__status">
+              <span class="friend__status">
                 Cloning now
               </span>
             </div>
           </div>
+        </div>
+      </header>
+      </div>
+      <ul class="friends__list">
+        <h5 class="friends__title">Friends 2</h5>
+        <li class="friends__friend friend friend--lg">
           <div class="friend__column">
-              <span class="friend__now-listening">
-                  FTISLAND (FT Nomaders)
+            <img src="images/alice_charles.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Alice Charles
               </span>
-              <i class="fas fa-play"></i>
+              <span class="friend__status">
+                Ice water in my veins
+              </span>
+            </div>
           </div>
-          </li>
+          <div class="friend__column">
+            <span class="friend__now-listening">
+              Chicago - Sufjan Stevens
+            </span>
+          </div>
+        </li>
+        <li class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/infinity_jackson.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Infinity Jackson
+              </span>
+              <span class="friend__status">
+                Save the Earth!
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <span class="friend__now-listening">
+              Back to the Earth - Jason Mraz 
+            </span>
+          </div>
+        </li>
       </ul>
     </main>
     <nav class="nav">
@@ -98,6 +105,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">3</div>
             <i class="far fa-comment"></i>
           </a>
         </li>
@@ -114,4 +122,11 @@
       </ul>
     </nav>
   </body>
+  <div class="bigScreen">
+    <span class="bitScreen__text">Please make your screen smaller</span>
+    <div class="screen-icon">
+      <i class="fas fa-kiwi-bird"></i>
+    </div>
+    <span class="screen-text">Kiwi Talk</span>
+  </div>
 </html>

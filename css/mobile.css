@@ -1,0 +1,37 @@
+.bigScreen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #63e22f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0px 20px;
+  display: none;
+}
+
+.screen-icon i {
+  color: white;
+  padding-bottom: 70px;
+}
+
+.screen-text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 70px;
+  padding-left: 10px;
+}
+
+@media screen and (min-width: 550px) {
+  .bigScreen {
+    display: flex;
+  }
+}

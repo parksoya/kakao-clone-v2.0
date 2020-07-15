@@ -1,0 +1,102 @@
+.more .more__btn-list,
+.more .more__suggestions-list {
+  margin: 30px 0px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.more__btn-list .more__btn,
+.more .suggestion {
+  margin-right: 40px;
+  display: flex;
+  margin-right: 40px;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.more__btn .more__btn-title {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.more .more__suggestions {
+  border-top: 1px solid #f7f7f7;
+  padding-top: 20px;
+}
+
+.more .more__title {
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.suggestion .suggestion__title {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.suggestion .suggestion__icon {
+  background-color: #63e22f;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.suggestion__icon i {
+  font-size: 28px;
+  color: white;
+}
+
+.friend__column i {
+  color: #63e22f;
+  margin-right: 10px;
+}
+
+.ad {
+  background-image: url("https://cdn.shopify.com/s/files/1/0278/0003/products/SPG203_Yellow_Polka_Dot_Photography_Backdrop_Spring_Photo_Props_650x.jpg?v=1571680973");
+  background-size: cover;
+  border: 3px solid #96f66f;
+  width: 460px;
+  height: 100px;
+  margin-top: 150px;
+  border-radius: 15px;
+}
+
+.ad .ad-btn {
+  width: 30px;
+  height: 30px;
+  background-color: gray;
+  color: black;
+  opacity: 0.5;
+  text-align: center;
+  padding-top: 7px;
+  font-size: 15px;
+  margin-left: 425px;
+  border-radius: 15px;
+}
+
+@keyframes anim {
+  from {
+    transform: none;
+  }
+  to {
+    transform: scaleY(1.5);
+  }
+}
+
+.ad .cookie {
+  color: #fba856;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+  animation: anim 3s linear infinite;
+}
+
+.ad .cookie-icon i {
+  color: #964f09;
+  padding-left: 370px;
+  padding-top: -20px;
+}

@@ -1,0 +1,94 @@
+.friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend .friend__avatar {
+  width: 50px;
+  border-radius: 38%;
+}
+
+.friend__avatar.g-avatar {
+  width: 70px;
+}
+.friend__avatar.m-avatar {
+  width: 60px;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.friends__header .friend__column {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.friend .friend__avatar {
+  margin-right: 15px;
+}
+
+.friend__content .friend__name {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.friend__content .friend__status,
+.friend .chat__timestamp {
+  opacity: 0.6;
+}
+
+.friend__content {
+  font-size: 14px;
+}
+
+.friend__content .friend__status,
+.friend .chat__timestamp {
+  font-size: 12px;
+}
+
+.friends__list .friends__title {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-bottom: 8px;
+  padding-top: 20px;
+}
+
+.chat__badge {
+  position: absolute;
+  top: 160px;
+  right: 33px;
+  font-size: 10px;
+  color: white;
+  background-color: #dc5d46;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.friend__column .chat__timestamp {
+  padding-bottom: 30px;
+}
+
+.friend__bottom-text {
+  opacity: 0.5;
+}
+
+@keyframes rotsquare {
+  0% {
+    transform: none;
+  }
+  20% {
+    transform: scaleY(2);
+  }
+  100% {
+    transform: none;
+  }
+}
